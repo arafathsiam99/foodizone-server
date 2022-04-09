@@ -113,7 +113,7 @@ async function run() {
 run().catch(console.dir);
 app.get("/", (req, res) => {
   console.log("Api   hit");
-  res.send("Hello Foodizone");
+  res.send("Hellow Foodizone");
 });
 
 app.listen(port, () => {
